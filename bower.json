@@ -1,0 +1,48 @@
+{
+  "name": "your-projetc-name",
+  "version": "0.0.0",
+  "description": "Write here yout project description",
+  "homepage": "your-homepage",
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  },
+  "authors": [
+    "Nul Pàs <manu@lunaeme.com> (https://twitter.com/NulPas)",
+    "Luis Murciano <luismurciano@gmail.com> (https://www.linkedin.com/in/luismurciano/)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular-toolpas": "^0.9.16"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "angular": "^1.5.8"
+  },
+  "overrides": {
+    "material-design-lite": {
+      "main": [
+        "material.js",
+        "material.css"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "dist/css/bootstrap-theme.css"
+      ]
+    },
+    "dragular": {
+      "main": [
+        "dist/dragular.js",
+        "dist/dragular.css"
+      ]
+    }
+  }
+}

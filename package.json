@@ -1,0 +1,30 @@
+{
+  "name": "your-projetc-name",
+  "version": "0.0.0",
+  "description": "Write here yout project description",
+  "homepage": "your-homepage",
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  },
+  "scripts": {
+    "serve:pro": "gulp do --build production --serve",
+    "serve:pre": "gulp do --build concatenation --serve",
+    "serve:dev": "gulp do --build development --serve",
+    "postinstall": "bower install && bower prune",
+    "build": "npm run serve:pro"
+  },
+  "keywords": [
+    "gulp",
+    "angular"
+  ],
+  "author": "Nul Pàs <manu@lunaeme.com> (https://twitter.com/NulPas)",
+  "contributors": [
+    "Luis Murciano <luismurciano@gmail.com> (https://www.linkedin.com/in/luismurciano/)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gulp-angular-seedpas": "git+ssh://git@bitbucket.org:sevillecore/gulp-angular-seedpas.git#0.0.0-18"
+  },
+  "devDependencies": {}
+}
