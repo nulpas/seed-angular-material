@@ -1,22 +1,14 @@
 {
   "name": "seed-angular-material",
-  "version": "0.3.8-beta.02",
+  "version": "0.3.8-beta.03",
   "description": "Write here yout project description",
-  "main": "gulpfile.js",
+  "main": "README.md",
   "homepage": "https://github.com/nulpas/seed-angular-material",
   "repository": {
     "type": "git",
     "url": "https://github.com/nulpas/seed-angular-material.git"
   },
-  "scripts": {
-    "serve:pro": "gulp do --build production --serve",
-    "serve:pre": "gulp do --build concatenation --serve",
-    "serve:dev": "gulp do --build development --serve",
-    "postinstall": "gulp plant",
-    "build": "npm run serve:pro"
-  },
   "keywords": [
-    "gulp",
     "angular"
   ],
   "author": "Nul Pàs <manu@lunaeme.com> (https://twitter.com/NulPas)",
@@ -24,8 +16,6 @@
     "Luis Murciano <luismurciano@gmail.com> (https://www.linkedin.com/in/luismurciano/)"
   ],
   "license": "MIT",
-  "dependencies": {
-    "gulp-angular-seedpas": "git+ssh://git@bitbucket.org:sevillecore/gulp-angular-seedpas.git#0.0.0-20"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
